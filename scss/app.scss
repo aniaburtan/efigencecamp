@@ -49,6 +49,4 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-p {
-    background-color: blue;
-}
+@import 'pages/login';
