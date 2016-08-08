@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
 
 .loginBackground {
     background-image: url("../media/images/background.png");
@@ -14,5 +15,112 @@
     background-color: #13bdd2;
     border-radius: 5%;
     color: white;
+    font-size: calc(2em + 1vmin);
+    padding: 40px;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 10%;
+    padding-bottom: 25%;
+}
 
+#loginText {
+    color: white;
+    font-size: calc(0.1em + 1vmin);
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    padding-bottom: 60px;
+}
+
+.circleBox  {
+    border-radius: 100%;
+    background-color: white;
+    border: solid white 1px;
+    height: 2em;
+    width: 2em;
+    margin-top: 20px;
+    margin: auto;  
+    left:0;
+    right: 0;
+    
+}
+
+.loginId {
+    color: white;
+    font-size: calc(0.2em + 1vmin);
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    margin-top: 5%;
+    margin-bottom: 5px;
+    display: inline-block;
+
+}
+
+#cancel {
+    border-radius:100%;
+    width:15px;
+    height: 15px;
+    background-color: #42cac0;
+    color: white;
+    font-size: calc(0.1em + 1vmin);
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    display: inline-block;
+}
+
+#selectOther {
+    width: 30%;
+    height: 8%;
+    color: white;
+    font-size: calc(0.1em + 1vmin);
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    padding: 2%;
+    display: inline-block;
+}
+
+#go {
+    width: 30%;
+    height: 8%;
+    background-color: white;
+    color: black;
+    border-radius: 10%;
+    border: 1px solid white;
+    font-size: calc(0.2em + 1vmin);
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    padding: 2%;
+    display: inline-block;
+}
+
+.footer {
+    position: absolute;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-size: calc(0.1em + 1vmin);
+    color: white;
+    bottom: -5%;
+    margin-left: -40px;
+    
+}
+
+#security {
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+
+#footerLogin {
+    display: inline-block;
+    margin: 5px;
+}
+
+#contactFooter {
+    display: inline-block;
+    margin: 5px;
 }
