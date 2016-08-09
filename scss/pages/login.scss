@@ -36,7 +36,7 @@
 
 .circleBox  {
     border-radius: 100%;
-    background-color: white;
+    background-image: url('https://cdn3.iconfinder.com/data/icons/avatars-9/145/Avatar_Pig-512.png');
     border: solid white 1px;
     height: 2em;
     width: 2em;
@@ -44,6 +44,7 @@
     margin: auto;  
     left:0;
     right: 0;
+    background-size: cover;
     
 }
 
