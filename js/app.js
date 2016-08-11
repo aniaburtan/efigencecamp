@@ -27,6 +27,8 @@ $(document).on('ready', function() {
         }
         else {
             console.log("Błędne hasło");
+            $('#wrongPass').show();
+            $('#triangle').show();
         }
     };
             
@@ -37,4 +39,5 @@ $(document).on('ready', function() {
         // alert(pass);
         sendAjax(pass);
     });
+    
 });
