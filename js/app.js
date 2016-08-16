@@ -22,22 +22,29 @@ $(document).on('ready', function() {
                 },
                 success: function(response) {
                     console.log(response);
+                    $('#go').click(function() {
+                    window.location.href = 'http://google.com';
+                    return false;
+                    });
                 }
-            });
+            });    
         }
+                
         else {
             console.log("Błędne hasło");
             $('#wrongPass').show();
             $('#triangle').show();
+            $('#wrongPass').fadeOut(4000);
+            $('#triangle').fadeOut(4000);
         }
     };
             
    
     button.on('click', function(event) {
-        event.preventDefault();
+       event.preventDefault();
         var pass = $('input').val();
         // alert(pass);
         sendAjax(pass);
+}); 
     });
     
-});
