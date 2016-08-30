@@ -3,6 +3,7 @@
 .loginBackground {
     background-image: url("../media/images/background.png");
     padding: 20px;
+    background-size:auto 100%;
 }
 
 .logo img {
@@ -142,8 +143,7 @@
 }
 
 #triangle {
-width:0; /*set dimensions of DIV to 0 so its borders collapse and touch one 
-another*/
+width:0; /*set dimensions of DIV to 0 so its borders collapse and touch one another*/
 height:0;
 border-color:transparent transparent red  transparent; /*top, right, bottom, and left border*/
 border-style: solid;

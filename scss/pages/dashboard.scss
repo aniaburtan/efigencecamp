@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+
+.logo {
+    float:left;
+    display: inline-block;
+    height: 4em;
+    width: 4em;
+    margin: 1.5em 0 0 0;
+}
+
+.avatar {
+    background-image: url('https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xlf1/v/t1.0-9/11951137_10153623807859185_6381668003528920957_n.jpg?oh=48982ae0217ec68fb68c640e89ceccf6&oe=5858AB10&__gda__=1481266607_8165fc95192ea4e97d7408bc5f971b92');
+    border: solid white 1px;
+    height: 4em;
+    width: 4em;
+    margin: auto;  
+    background-size: cover;
+    float: left;
+    display: inline-block;
+    margin: 1.5em 1em 1em 0;
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+    font-family: 'Roboto Condensed';
+    color: white;
+    padding: 1em;
+}
+
+.navBox {
+    background-color: #13bdd2;
+    height: 20%;
+}
+
+.userProfile {
+    margin: 1.5em 1em 1em 0;
+    font-family: 'Roboto Condensed';
+    color: white;
+}
+
+.envelope {
+    width: 1.5em;
+    float: left;
+    position: relative;
+    margin-right: 1em;
+}
+
+.wheel {
+    width: 1.5em;
+    float: left;
+    position: relative;
+}
+
+body {
+	background: #DDD;
+	font-size: 15px;
+}
+#wrap {
+  margin-top: 1em;
+  display: inline-block;
+  height: 2em;
+  float: right;
+  border: none;
+  // padding: 1em;
+  position: absolute;
+}
+
+#search {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+input[type="text"] {
+  height: 1em;
+  width: 1em;
+  font-size: 1.5em;
+  display: inline-block;
+  font-family: 'Roboto Condensed';
+  outline: none;
+  color: #13bdd2;
+  padding: 0.2em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url('../media/images/search_icon.png') center no-repeat;
+  background-size: 100% 100%;
+  z-index: 3;
+  transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+input[type="text"]:focus {
+  width: 10em;
+  z-index: 1;
+  cursor: text;
+}
+input[type="submit"] {
+  height: 1em;
+  width: 1em;
+  margin-top: 0;
+  display: inline-block;
+  float: right;
+  background: none;
+  border: none;
+  text-indent: -10000px;;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.logout {
+    width: 1.5em;
+    height: 1.5em;
+    float: right;
+    position: relative;
+    margin-top: 2.2em;
+    margin-left: 1em;
+}
+
+.navIcons {
+    width: 3em;
+}
+
+.navIcons img {
+    margin: auto;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.navIcons div {
+    margin: auto;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.wheel img:hover {
+    transform: rotate(360deg);
+    transition: 2s cubic-bezier(.17,.67,.21,1.69);
+}
+
+nav li:hover {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Roboto Condensed';
+    margin-top: 0.5em;
+}
+
+.balance, .funds, .payments {
+    display: inline-block;
+    font-family: 'Roboto Condensed';
+    margin-right: 2em;
+    font-size: 2em;
+    
+}
+
+.main {
+    background-color: #d9dada;
+
+}
+
+.chart {
+    background-color: white;
+    width: 100%;
+    height: 20em;
+    border: 1px solid black;
+    margin-top: 3em;
+}
+
+.products, .history {
+    margin-top: 2em;
+    font-family: 'Roboto Condensed';
+}
