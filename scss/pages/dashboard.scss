@@ -174,3 +174,35 @@ h1 {
     margin-top: 2em;
     font-family: 'Roboto Condensed';
 }
+
+#wallets_products, #deposits_products, #accounts_products, #funds_products, #bankLoans_products {
+    background-color: white;
+    width:48%;
+    height: 8em;
+    margin-bottom: 1em;
+}
+
+#wallets_products, #accounts_products {
+    float: right;
+}
+
+.product_icon {
+    height: auto;
+    width: 20%;
+    margin-top: 2em;
+    margin-left: 2em;
+    float: left;
+}
+
+#wallets_text {
+    float: right;
+    width: 60%;
+   // background-color: blue; (test)
+    height: 100%;
+    // text-align: center;
+    line-height: 8em;
+}
+
+#wallets_products:hover {
+    background-color: blue;
+}
