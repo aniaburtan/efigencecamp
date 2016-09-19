@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="js/dashboard.js"></script>
+  </head>
+  <body>
+       <header>
+          <div class="navBox">
+                <div class="row">
+                    <div class="small-5 columns">
+                        <div class="logo">
+                            <img src="media/images/efi_logo.png"/>
+                        </div>
+                        <div class="avatar"></div>
+                        <div class="userProfile">Ania Burtan</div>
+                        <div class="envelope"><img src="media/images/envelope_icon.png"/></div>
+                        <div class="wheel"><img src="media/images/settings_icon.png"/></div>
+                    </div>
+
+                    <div class="small-6 columns">
+                        <nav>
+                            <li><div class="navIcons"><img src="media/images/home_icon.png"/><div>HOME</div></div></li>
+                            <li><div class="navIcons"><img src="media/images/settings_icon.png"/><div>ANALYSE</div></div></li>
+                            <li><div class="navIcons"><img src="media/images/settings_icon.png"/><div>PLAN</div></div></li>
+                            <li><div class="navIcons"><img src="media/images/settings_icon.png"/><div>EARN</div></div></li>
+                        </nav>
+                    </div>
+                    <div class="small-1 columns"> 
+                        <div id="wrap">
+                                <form action="" autocomplete="on">
+                                <input id="search" name="search" type="text"><input id="search_submit" type="submit">
+                                </form>
+                        </div>
+                        <div class="logout"><img src="media/images/logout_icon.png"/></div>
+                    </div>
+                </div>
+            </div>
+       </header>
+       <div class ="main">
+           <div class="small-12 columns">
+                   <h1> Finance life stream </h1>
+                   <div class="summary"><div> Summary</div> <div id="SPR_Z_API"> PLN</div> </div>
+                   <div class="otherExpenses"><div> Other expenses</div> <div id="SPR_Z_API"> PLN </div> </div>
+                   <div class="Month"><div> Month</div> <div id="SPR_Z_API">Lista z miesiacami </div> </div>
+                    </div>
+                <ul id="budgetId">
+                    <li id="home-list">Home</li>
+                    <li id="studies-list">Studies</li>
+                    <li id="food-list">Food</li>
+                    <li id="car-list">Car</li>
+                    <li id="cinema-list">Cinema</li> 
+                    <!--tu wypisałabym wszystkie inne opcje i te, ktore nie sa dostepne bym ukrywala -->
+                </ul>
+           </div>
+           
+  </body>
+</html>

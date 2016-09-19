@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+
+#budgetId li {
+    display: inline-block;
+    position: relative;
+    font-family: 'Roboto Condensed';
+    padding: 1em;
+    border: 2.5em solid white;
+    border-radius: 100%;
+    width: 16em;
+    height: 16em;
+    text-align: center;
+    line-height: 50%;
+    margin: auto;
+    padding-top: 4em;
+}
