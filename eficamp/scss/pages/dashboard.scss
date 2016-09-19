@@ -1,42 +1,48 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
 
+$mainColor: #13bdd2;
+
 .logo {
     float:left;
     display: inline-block;
-    height: 4em;
-    width: 4em;
-    margin: 1.5em 0 0 0;
+    height: 5em;
+    width: 5em;
+    margin: 1em 0.2em 0 0;
+    border: 0.1em solid white;
+    border-radius: 5%;
 }
 
 .avatar {
     background-image: url('https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xlf1/v/t1.0-9/11951137_10153623807859185_6381668003528920957_n.jpg?oh=48982ae0217ec68fb68c640e89ceccf6&oe=5858AB10&__gda__=1481266607_8165fc95192ea4e97d7408bc5f971b92');
-    border: solid white 1px;
-    height: 4em;
-    width: 4em;
+    height: 5em;
+    width: 5em;
     margin: auto;  
     background-size: cover;
     float: left;
-    display: inline-block;
-    margin: 1.5em 1em 1em 0;
-}
-
-nav li {
-    display: inline-block;
-    position: relative;
-    font-family: 'Roboto Condensed';
-    color: white;
-    padding: 1em;
-}
-
-.navBox {
-    background-color: #13bdd2;
-    height: 20%;
+    display: block;
+    margin: 1em 1em 1em 0;
+    border-radius: 5%;
+    border: 0px solid;
 }
 
 .userProfile {
-    margin: 1.5em 1em 1em 0;
-    font-family: 'Roboto Condensed';
-    color: white;
+    width: 7em;
+    float: left;
+    margin: 1em 0;
+    p {
+        font-size: 1.5em;
+        font-family: 'Roboto Condensed';
+        color: white;
+        line-height: 80%;
+        margin-top: 0.5em; 
+    }
+}
+
+.navBox {
+    background-color: $mainColor;
+    height: 20%;
+    z-index: 2;
+    
 }
 
 .envelope {
@@ -50,20 +56,89 @@ nav li {
     width: 1.5em;
     float: left;
     position: relative;
+    margin-right: 1em;
+}
+
+.wheel img:hover {
+    transform: rotate(360deg);
+    transition: 2s cubic-bezier(.17,.67,.21,1.69);
+}
+
+.award {
+    width: 1.5em;
+    float: left;
+    position: relative;
 }
 
 body {
 	background: #DDD;
 	font-size: 15px;
 }
+
+.logout {
+    width: 5em;
+    height: 5em;
+    float: right;
+    border-left: 0.1em solid white;
+    padding-left: 0.5em;
+    padding: 1.5em;
+    margin-top: 1em;
+}
+
+.logout img {
+    height: 2em;  
+}
+
+nav {
+    margin-right: 1em;
+}
+
+nav li {
+    display: inline-flex;
+    font-family: 'Roboto Condensed';
+    color: white;
+    padding: 1em;
+}
+
+nav li:hover {
+    background-color: black;
+}
+
+nav li a {
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    background-size: 2.5em;
+    display:block;
+    text-align:center;
+    padding-top: 3em; 
+    margin-top: 1em;
+    color: white;
+    align-items: stretch;
+    
+}
+
+.menuHome a {
+    background-image: url('../media/images/home.png');
+}
+
+.menuAnalyse a {
+    background-image: url('../media/images/analyse.png');
+}
+
+.menuPlan a {
+    background-image: url('../media/images/plan.png');
+}
+
+.menuEarn a {
+    background-image: url('../media/images/earn.png');
+}
 #wrap {
   margin-top: 1em;
-  display: inline-block;
+  display: block;
   height: 2em;
   float: right;
   border: none;
-  // padding: 1em;
-  position: absolute;
+  padding: 1em;
 }
 
 #search {
@@ -73,15 +148,15 @@ body {
 }
 
 input[type="text"] {
-  height: 1em;
-  width: 1em;
-  font-size: 1.5em;
-  display: inline-block;
+  height: 2em;
+  width: 2em;
+  font-size: 1em;
+  display: block;
+  float: right;
   font-family: 'Roboto Condensed';
   outline: none;
   color: #13bdd2;
   padding: 0.2em;
-  position: absolute;
   top: 0;
   right: 0;
   background: url('../media/images/search_icon.png') center no-repeat;
@@ -205,4 +280,8 @@ h1 {
 
 #wallets_products:hover {
     background-color: blue;
+}
+
+#deposits_text {
+    float: right;
 }

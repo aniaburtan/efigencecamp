@@ -22,6 +22,7 @@ $mainColor: #13bdd2;
     display: inline-block;
     margin: 1em 1em 1em 0;
     border-radius: 5%;
+    border: 0px solid;
 }
 
 .userProfile {
@@ -32,7 +33,8 @@ $mainColor: #13bdd2;
         font-size: 1.5em;
         font-family: 'Roboto Condensed';
         color: white;
-        line-height: 20%; 
+        line-height: 80%;
+        margin-top: 0.5em; 
     }
 }
 

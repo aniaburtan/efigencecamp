@@ -34,7 +34,6 @@ $(document).on('ready', function() {
 
     };
 
-
     button.on('click', function(event) {
         event.preventDefault();
         var pass = $('input').val();
